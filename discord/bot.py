@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
-from modules.helpers import *
-
+from .modules.helpers import *
+from .cogs import *
 
 client = commands.Bot(
     command_prefix=PREFIX,
